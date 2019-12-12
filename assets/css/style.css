@@ -233,7 +233,7 @@ input[type=submit] {
   }
 }
 
-@media only screen (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .main-section, .sidebar {
       max-width: 100%;
     }
@@ -258,7 +258,7 @@ input[type=submit] {
     }
 }
 
-@media only screen (max-width: 640px) {
+@media only screen and (max-width: 640px) {
   #masthead{
     position:static;
     margin-bottom: 20px;
